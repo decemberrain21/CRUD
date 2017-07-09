@@ -1,0 +1,29 @@
+https://github.com/facebookincubator/create-react-app
+You don’t need to install or configure tools like Webpack or Babel.
+They are preconfigured and hidden so that you can focus on the code.
+Installation
+npm init to generate package.json
+Install it once globally:
+npm install -g create-react-app
+You’ll need to have Node >= 6 
+
+To create a new app, run:
+
+create-react-app my-app
+cd my-app
+.................
+ES6
+-can use the syntax now with the help of a transpiler like Babel.
+
+-Babel let you use ES6 and JSX in your JavaScript code. 
+for eg. to work this coded
+ return (
+      <div>
+        <Accordion>
+          {this.props.data}
+        </Accordion>
+      </div>
+    );
+-install babel-preset-react and babel-preset-es2015, babel-core
+-Create .babelrc configuration file
+-Create a .babelrc config in your project root (or) Use via package.json
